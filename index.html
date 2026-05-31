@@ -1,126 +1,172 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>VIP GORUP</title>
-<!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1729629964668046');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1729629964668046&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
+<title>PANAL PANAL</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
 <style>
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: radial-gradient(circle, #000814, #000);
-    color: #fff;
-    text-align: center;
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Inter',sans-serif;
 }
 
-.container {
-    max-width: 400px;
-    margin: 40px auto;
-    background: rgba(0, 20, 40, 0.8);
-    padding: 30px;
-    border-radius: 25px;
-    box-shadow: 0 0 30px rgba(0, 140, 255, 0.4);
+body{
+background:radial-gradient(circle,#0f1030,#02030d);
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:12px;
 }
 
-.logo img {
-    width: 140px;
-    border-radius: 50%;
-    border: 4px solid #00aaff;
-    box-shadow: 0 0 25px #00aaff;
+.card{
+width:390px;
+max-width:100%;
+background:linear-gradient(180deg,#111327,#171739);
+border-radius:34px;
+padding:32px 24px 38px;
+text-align:center;
+box-shadow:0 0 40px rgba(0,0,0,.45);
 }
 
-h1 {
-    margin-top: 20px;
-    font-size: 26px;
-    letter-spacing: 2px;
+.profile{
+width:126px;
+height:126px;
+border-radius:50%;
+overflow:hidden;
+margin:auto;
+border:4px solid #00ff8a;
+box-shadow:0 0 25px rgba(0,255,138,.8);
 }
 
-.sub {
-    color: #00aaff;
-    font-size: 14px;
-    margin: 10px 0 20px;
-    letter-spacing: 1px;
+.profile img{
+width:100%;
+height:100%;
+object-fit:cover;
 }
 
-.btn {
-    display: inline-block;
-    background: linear-gradient(45deg, #007bff, #00c6ff);
-    color: #fff;
-    padding: 15px 30px;
-    border-radius: 12px;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-    box-shadow: 0 0 20px #00aaff;
-    margin-top: 15px;
+.title{
+margin-top:28px;
+font-size:28px;
+font-weight:800;
+color:#ffb100;
+letter-spacing:-1px;
 }
 
-.members {
-    margin-top: 20px;
-    font-size: 14px;
+.subtitle{
+margin-top:16px;
+font-size:15px;
+font-weight:400;
+line-height:1.55;
+color:#f2f2f2;
 }
 
-.footer {
-    margin-top: 30px;
-    font-size: 12px;
-    color: #888;
+.green{
+color:#00f878;
+font-weight:700;
 }
 
-.footer span {
-    color: #00aaff;
+.timer{
+margin-top:28px;
+height:98px;
+border:1px solid rgba(0,255,138,.35);
+border-radius:20px;
+display:flex;
+justify-content:center;
+align-items:center;
+gap:8px;
+font-size:16px;
+font-weight:600;
+color:white;
+}
+
+.timer span{
+font-size:38px;
+font-weight:800;
+color:#ffb100;
+}
+
+.btn{
+margin-top:28px;
+background:#f9a400;
+height:92px;
+border-radius:22px;
+display:flex;
+justify-content:center;
+align-items:center;
+gap:10px;
+font-size:20px;
+font-weight:800;
+color:black;
+text-decoration:none;
+box-shadow:0 8px 0 #cb7400,0 0 30px rgba(255,165,0,.35);
+}
+
+.footer{
+margin-top:28px;
+font-size:14px;
+font-weight:400;
+line-height:1.7;
+color:#d9d9d9;
+}
+
+.copy{
+margin-top:28px;
+font-size:11px;
+letter-spacing:2px;
+opacity:.55;
+color:#ddd;
 }
 </style>
-
 </head>
 
 <body>
 
-<div class="container">
+<div class="card">
 
-    <div class="logo">
-        <!-- IMAGE CHANGE HERE -->
-        <img src="https://image2url.com/r2/default/images/1775576186807-8a24b094-eb0e-42a9-b9f3-5da3596a90a4.jpg">
-    </div>
-
-    <h1>𝗦𝗨𝗥𝗘𝗦𝗛𝗢𝗧 𝗕𝗬 𝗚𝗨𝗥𝗨𝗨 🔥</h1>
-
-    <div class="sub">
-        100% NUMBER FIXER | PREDICTION KING
-    </div>
-
-    <!-- TELEGRAM BUTTON -->
-    <a class="btn" href="https://t.me/+5RvUzFekvFJlMjVl" target="_blank">
-        JOIN TELEGRAM ⚡
-    </a>
-
-    <div class="members">
-        ★ 500+ MEMBERS ACROSS INDIA ★
-        <br><br>
-        KING OF COLOUR ANALYSIS
-    </div>
-
+<div class="profile">
+<img src="https://www.image2url.com/r2/default/images/1780190136595-e38dd325-7259-44d1-922a-c1ce23cc0083.jpg">
 </div>
+
+<div class="title">𝐑𝐀𝐃𝐇𝐄 𝐗 𝐄𝐌𝐏𝐈𝐑𝐄 🥷</div>
+
+<div class="subtitle">
+Join the Fast Growing Community<br>
+Get <span class="green">Regular Updates & Insights 🔥</span>
+</div>
+
+<div class="timer">
+⚡ Free access closes in <span id="count">9</span> s
+</div>
+
+<a class="btn" href="https://t.me/+0P9Ath5bL3Q2Mjll">
+🚀 JOIN TELEGRAM NOW
+</a>
 
 <div class="footer">
-    ADS BY <span>@tengenads</span>
+✅ Trusted by Thousands of Members<br>
+🔒 For Educational Purpose Only
 </div>
+
+<div class="copy">
+@TENGENADSAGENCY BY TG 
+</div>
+
+</div>
+
+<script>
+let x=9;
+setInterval(()=>{
+if(x>0){
+x--;
+document.getElementById('count').innerHTML=x;
+}
+},1000)
+</script>
 
 </body>
 </html>
